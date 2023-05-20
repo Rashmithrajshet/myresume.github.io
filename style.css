@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:16px;
+}
+.col{
+   background-color: rgb(151, 110, 190);
+}
+.card{
+    background: rgba(255,255,255,0.35);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+width:50rem;
+}
+label{
+    font-size:1.1rem;
+    font-weight: 500;
+}
+.form-control{
+    border-radius: 1rem;
+    border:none;
+    transition: 1s all;
+}
+.form-control:hover{
+    transform:scale(1.02);
+}
